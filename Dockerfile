@@ -76,4 +76,5 @@ COPY --from=builder /app/characters ./characters
 EXPOSE 3000 5173
 
 # Command to start the application
-CMD ["sh", "-c", "pnpm start & pnpm start:client"]
+# CMD ["sh", "-c", "pnpm start & pnpm start:client"]
+CMD ["pnpm", "start", "--characters=characters/trader.character.json"]
