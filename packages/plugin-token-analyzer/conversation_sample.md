@@ -133,7 +133,7 @@ Simulation complete. Here is your profit/loss summary:
 - ETH: -0.005397580222714728 ETH
 
 **Detailed Holdings:**
-```json
+
 [
   {
     "token": "WETH",
@@ -157,5 +157,4 @@ Simulation complete. Here is your profit/loss summary:
     "pnlUsd": "-3.0000"
   }
 ]
-```
 ```
